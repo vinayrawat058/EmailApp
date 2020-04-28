@@ -1,0 +1,24 @@
+# EmailApp
+
+package emailapp;
+
+import java.util.Scanner;
+
+public class Emailapp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("\n ENter the name of the employee");
+		Scanner sc = new Scanner(System.in);
+		String first = sc.nextLine();
+		System.out.println("\n NEter the last name of the user");
+		String last = sc.nextLine();
+		
+        Email em1 = new Email(first,last);
+        em1.showInfo();
+        System.out.println(em1.showInfo());
+	}
+	}
+
+
+
